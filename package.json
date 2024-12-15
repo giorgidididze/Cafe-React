@@ -1,0 +1,53 @@
+{
+  "name": "tite",
+  "version": "0.1.0",
+  "homepage": "https://giorgidididze.github.io/Cafe/",
+  "private": true,
+  "dependencies": {
+    "@react-google-maps/api": "^2.18.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "datetime-moment": "^1.0.0",
+    "formkit": "^0.17.2",
+    "gh-pages": "^6.2.0",
+    "google-map-react": "^2.2.1",
+    "jquery": "^3.7.0",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-clock": "^4.2.0",
+    "react-dom": "^18.2.0",
+    "react-jquery-plugin": "^1.1.7",
+    "react-recompose": "^0.33.0",
+    "react-router-dom": "^6.12.0",
+    "react-scripts": "5.0.1",
+    "react-simple-clock": "^1.1.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

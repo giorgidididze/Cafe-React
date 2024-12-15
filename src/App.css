@@ -1,0 +1,466 @@
+*{
+  text-decoration: none;
+  margin: 0%;
+}
+@font-face {
+  font-family: bouticue;
+  src: url(./fonts/Boutique\ Christmas\ TTF\ Personal.ttf);
+}
+.home-top{
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.your-class{
+  margin-top: 50px;
+}
+.text-name{
+  font-family: bouticue;
+}
+.head{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.but-menu{
+  text-align: center;
+  
+}
+.but-navig{
+  color: white;
+  
+  width: 230px; 
+  padding: 10px 16px;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.but-menu:hover{
+  background-color: rgb(111, 131, 131);
+}
+.header{
+  margin-top: 43px;
+}
+header img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.heading-text{
+  margin-top: 93px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: absolute;
+  top: 200px;
+}
+.open-tag, .adres-text{
+  margin-top: 300px;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+}
+.container, .menu{
+  
+  padding-top: 20px;
+  padding-bottom: 28px;
+}
+body{
+  background-color: rgb(243, 241, 241);
+}
+.contet{
+  width: 100%;
+}
+.content{
+  width: 800px;
+  margin: auto;
+}
+.about, .menus{
+  margin: 20px auto;
+  margin-bottom: 40px;
+  color: white;
+  width: max-content;
+  background-color: black;
+  padding: 5px 10px;
+}
+
+.content p{
+  font-family: "Inconsolata", sans-serif;
+  line-height: 1.7;
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+.menu p{
+    font-family: "Inconsolata", sans-serif;
+    line-height: 1.7;
+    font-size: 18px;
+    opacity: 0.9;
+    margin-bottom: 15.6px;
+}
+.contet p{
+  font-family: "Inconsolata", sans-serif;
+  line-height: 1.7;
+  font-size: 18px;
+  opacity: 0.9;
+  margin-bottom: 15.6px;
+  padding-left: 20px;
+}
+.panelbar{
+  background-color: rgb(230, 227, 227);
+  padding: 20px;
+  margin: 30px 0;
+  border-left: 6px solid rgb(209, 203, 203);
+}
+.menu-card{
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+  background-color: rgb(209, 203, 203);
+}
+button{
+  background-color: rgb(22, 21, 21);
+}
+.eat-card{
+  width: 330px;
+  height: 15px;
+  padding: 5px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.drink-card{
+  width: 330px;
+  height: 15px;
+  padding: 5px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+.Eats{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  background-color: rgb(233, 232, 232);
+  padding: 10px;
+  padding-top: 24px;
+}
+.Drinks{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+    background-color: rgb(233, 232, 232);
+    padding: 10px;
+    padding-top: 24px;
+}
+.boxes{
+  width: 400px;
+  text-align: center;
+}
+.boxes h5{
+  font-size: 18px;
+}
+.boxes img{
+  width: 300px;
+  height: 200px;
+  margin: 10px 0;
+}
+.maps-image{
+  width: 650px;
+  height: 336px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.where-tag{
+  background-color: black;
+  color: white;
+  padding: 3px;
+}
+.para{
+  margin-top: 50px;
+  text-align: center;
+}
+.input-border{
+  width: 800px;
+  padding: 12px 5px;
+}
+.button-black{
+  width: 200px;
+  height: 40px;
+  color: white;
+  cursor: pointer;
+}
+.your-class {
+  position: absolute !important;
+  z-index: 100;
+  top: 30%;
+  right: 7%;
+	border-width: 5px !important;
+	border-color: rgb(0, 10, 25) !important;
+	background-color: rgba(2, 12, 15, 0.753);
+  opacity: 0.7;
+}
+.App {
+  display: flex;
+  height: 300px;
+  width: 300px;
+}
+
+.map-box {
+  height: 100%;
+  width: 100%;
+}
+.mapouter {
+  position:relative;
+  height:300px;
+  width:770px;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:510px;
+  width:692px;
+}
+.poria{
+  margin-top: 50px;
+}
+.menu-button{
+  background-color: black;
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-size: 22px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.twoin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menubut{
+  color: red;
+  padding: 0 5px;
+  font-weight: 600;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.bodies img{
+  width: 100%;
+  height: 593px;
+  filter: opacity(70%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bodies{
+  background-color: black;
+}
+.login-form{
+  position: absolute; 
+  top: 15%;
+  right: 5%;
+  width: 350px;
+  height: 350px;
+  background-color: rgb(71, 64, 64);
+  border-radius: 10%;
+  display: flex;
+  justify-content:  center;
+  animation: 8s border infinite;
+}
+.formin{
+  color: white;
+  padding: 10px 20px;
+  
+}
+.formin h1{
+  text-align: center;
+  padding: 20px 0;
+}
+:root{
+  --primary: #8338ec;
+}
+.formin input{
+  
+  outline: none;
+  box-sizing: content-box;
+}
+.formin label{
+  display: block;
+  margin-top: 25px;
+}
+.button-container{
+  width: 100px;
+  height: 25px;
+  margin-top: 30px;
+  background-color: rgb(153, 141, 127);
+  color: rgb(90, 90, 207);
+  font-weight: 600;
+  margin-left: 40px;
+  cursor: pointer;
+  border: var(--primary) 1px solid;
+}
+@keyframes border {
+    0% {
+      box-shadow: 5px 0px 15px 8px var(--primary);
+    }
+    35%{
+      box-shadow: 0px 5px 15px 8px var(--primary);
+    }
+    70%{
+      box-shadow: -5px 0px 15px 8px var(--primary);
+    }
+    100%{
+      box-shadow:  0px -5px 15px 8px var(--primary);
+    }
+}
+.textcontein{
+  position: absolute;
+  color: #e5e5e5;
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 40%;
+  left: 30%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.textcontein h1{
+  font-size: 20px;
+  background-color: black;
+  margin-right: -15px;
+  padding: 0px 5px;
+}
+.textcontein img{
+  width: 30px;
+  height: 21px;
+}
+.animation{
+  height: 30px;
+  overflow: hidden;
+  margin-left: 1rem;
+  text-align: center;
+  font-size: 25px;
+}
+.animation div:first-child{
+  animation: text-animation 8s infinite;
+}
+.first{
+  background-color: #3157ff;
+  margin-bottom: 62px;
+}
+.second{
+  background-color:#b82aff ;
+  margin-bottom: 62px;
+}
+.third{
+  background-color: #fa26b8;
+  margin-bottom: 10px;
+}
+@keyframes text-animation {
+  0%{
+    margin-top: 0;
+  }
+  10%{
+    margin-top: 0;
+  }
+  20%{
+    margin-top: -5.62rem;
+  }
+  30%{
+    margin-top: -5.62rem;
+  }
+  40%{
+    margin-top: -11.24rem;
+  }
+  60%{
+    margin-top: -11.24rem;
+  }
+  70%{
+    margin-top: -5.62rem;
+  }
+  80%{
+    margin-top: -5.62rem;
+  }
+  90%{
+    margin-top: 0;
+  }
+  100%{
+    margin-top: 0;
+  }
+}
+.texting{
+  background: linear-gradient(180deg,rgb(218, 246, 255),rgb(13, 98, 137));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-left: 10px;
+  width: 40ch;
+  animation: typing 2.4s steps(12), blink .8s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid ;
+  font-family: monospace;
+  font-size: 3em;
+  margin: auto;
+  margin-left: 340px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.kodfun-galeri {
+    display: flex;
+    height: 20rem;
+    gap: 1rem
+}
+.kodfun-galeri > div {
+    flex: 1;
+    height: 400px;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+.kodfun-galeri > div:hover {
+    flex: 5;
+}
+.kod-galery{
+    background-color: #F0B86C;
+    max-width: 900px;
+    height: 400px;
+    margin: 1rem auto;
+}
+.one{
+  background-image: url(./image/coffeeshop.jpg);
+}
+.one1{
+  background-image: url(./image/coffee-shop.jpg);
+}
+.one2{
+  background-image: url(./image/coffee-shops-cafe.jpg);
+}
+.one3{
+  background-image: url(./image/GettyImages.jpg);
+}
+.one4{
+  background-image: url(./image/café-coffee-shop.webp);
+}
